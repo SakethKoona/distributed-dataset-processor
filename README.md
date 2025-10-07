@@ -1,6 +1,6 @@
 # Distributed Dataset Processor
 
-A lightweight and efficient **distributed dataset processing service** designed to automate mundane preprocessing tasks for image ML workflows.  
+A lightweight and efficient **distributed dataset processing service** designed to automate mundane preprocessing tasks for image ML workflows, built in Rust for speed and safety.  
 
 It supports common operations such as **grayscale conversion, data augmentation, resizing**, and more, allowing you to streamline dataset preparation in a scalable and fault-tolerant manner.
 
