@@ -65,7 +65,7 @@ This project is **still in progress**. While the core backend and worker functio
 
 ---
 
-## 📦 How to Run (Optional Section)
+## 📦 How to Run
 
 1. Make sure you have **Docker** and **Docker Compose** installed.  
 2. Clone the repository:
