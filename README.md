@@ -40,16 +40,6 @@ A sample request for processing a dataset:
 
 4. Dependency-aware task tracking using MongoDB.
 
-## ⚙️ Future Plans
-
-Web frontend for monitoring workflows and datasets
-
-More advanced augmentation and preprocessing modules
-
-Enhanced monitoring and logging for distributed processing
-
-
-
 ---
 
 ## ⚙️ Future Plans
