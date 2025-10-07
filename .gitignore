@@ -1,0 +1,30 @@
+
+# === Rust backend (ImageProcessor) ===
+# Ignore all target directories in any crate
+**/target/
+**/*.rs.bk
+
+# Optionally ignore workspace Cargo.lock if it's a library workspace
+# (If this is a binary application, you can keep it)
+Cargo.lock
+
+# # === Frontend (placeholder for when you add it) ===
+
+# # Common frontend build artifacts (for React, Vue, etc.)
+# frontend/node_modules/
+# frontend/dist/
+# frontend/build/
+# frontend/.next/
+# frontend/.cache/
+# frontend/.vite/
+# frontend/.nuxt/
+# frontend/.angular/
+#
+# === OS / Editor junk ===
+.DS_Store
+
+# === Env / Secrets ===
+.env
+.env.local
+.env.*.local
+

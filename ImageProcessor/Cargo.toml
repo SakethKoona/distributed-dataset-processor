@@ -1,0 +1,9 @@
+[workspace]
+
+members = [
+  "crates/common",
+  "crates/img-api-server",
+  "crates/db_utils",
+  "crates/queue",
+  "crates/consumers",
+]

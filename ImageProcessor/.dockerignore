@@ -1,0 +1,8 @@
+crates/**/target/
+
+
+crates/img-api-server/target/
+crates/db_utils/target
+crates/consumers/target
+crates/common/target
+crates/queue/target

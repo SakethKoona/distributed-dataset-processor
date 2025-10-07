@@ -1,0 +1,25 @@
+[package]
+name = "img-api-server"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = { version = "0.7", features = ["json", "multipart", "macros"] }
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1.28", features = ["full"] }
+uuid = { version = "1.18.0", features = ["serde", "v4"] }
+aws-config = { version = "1.1.7", features = ["behavior-version-latest"] }
+aws-sdk-s3 = "1.96.0"
+thiserror = "1.0"
+tokio-stream = "0.1"
+mime_guess="2"
+bytes = "1.0"
+queue = { path = "../queue/" }
+db_utils = { path = "../db_utils/"}
+common = { path = "../common/" }
+
+
+
+[[bin]]
+name = "img-api-server"
+path = "src/main.rs"

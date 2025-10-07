@@ -1,0 +1,17 @@
+[package]
+name = "consumers"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+uuid = { version = "1", features = ["serde", "v4"] }
+aws-config = "1"
+aws-sdk-s3 = "1"
+futures = "0.3"
+zip = "4.3.0"
+common = { path = "../common" }
+db_utils = { path = "../db_utils/" }
+queue = { path = "../queue/" }
+
